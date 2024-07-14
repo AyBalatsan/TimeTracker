@@ -6,6 +6,14 @@ import (
 	"github.com/go-sqlx/sqlx"
 )
 
+const (
+	usersTable      = "people"
+	tasksTable      = "tasks"
+	peopleTaskTable = "people_task"
+)
+
+// people tasks people_task
+
 type Config struct {
 	Host     string
 	Port     string

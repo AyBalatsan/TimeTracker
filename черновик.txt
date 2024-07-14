@@ -1,0 +1,15 @@
+"surname": type: "string", required
+  "name": type: "string", required
+  "patronymic": type: "string", 
+  "address": type: "string" required
+  passportNumber type: "integer" required
+  passportSerie  type: "integer" required
+
+  Таблица Трудозатраты по пользователю 
+    задача 
+    total time type: "даты/времени в UTC." часов и минут с сортировкой от большей затраты к меньшей 
+    begun_the_task type: "даты/времени в UTC." храним значение начало выполнения таски 
+    done type: "Boolean"
+
+
+

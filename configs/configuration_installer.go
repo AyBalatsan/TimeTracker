@@ -9,7 +9,7 @@ import (
 func loadEnv() {
 	err := godotenv.Load(".env")
 	if err != nil {
-		logrus.Fatal("failed to load .env file %s", err.Error())
+		logrus.Fatalf("failed to load .env file %s", err.Error())
 	}
 }
 
@@ -19,7 +19,7 @@ func initConfig() {
 	viper.SetConfigName("config")
 	err := viper.ReadInConfig()
 	if err != nil {
-		logrus.Fatal("failed to load config file %s", err.Error())
+		logrus.Fatalf("failed to load config file %s", err.Error())
 	}
 }
 

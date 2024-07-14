@@ -7,6 +7,7 @@ import (
 	"github.com/AyBalatsan/TimeTracker/pkg/handler"
 	"github.com/AyBalatsan/TimeTracker/pkg/repository"
 	"github.com/AyBalatsan/TimeTracker/pkg/service"
+	_ "github.com/lib/pq"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 )

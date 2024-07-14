@@ -1,6 +1,10 @@
 GO Тестовое задание для Effective Mobile
 ===================
 
+Для миграции db
+
+# migrate -source file://schema -database "postgresql://postgres:qwer123@localhost:5432/db_time_tracker?sslmode=disable" -verbose up
+
 Реализовать тайм-трекер 
 Необходимо реализовать следующее
 
